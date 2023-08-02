@@ -10,14 +10,14 @@ function Footer() {
           <div className='flex flex-col items-start md:items-center justify-center md:flex-row gap-y-2 md:gap-y-0 md:space-x-2'>
           <div >
               <a href="#home">
-                <h3 className="text-blue-gray-900 font-roboto text-base lg:text-3xl font-bold leading-[110%]"      data-aos="fade-up"
+                <h3 className="text-blue-gray-900 font-roboto text-base lg:text-3xl font-bold leading-[110%]"      data-aos="fade-right"
                  >
                   Magnifico
                 </h3>
               </a>
             </div>
             <div className='lg:pt-2'>
-                <h3 className='text-[#475569] font-roboto text-base not-italic font-normal leading-[140%]'      data-aos="fade-up" data-aos-delay="100" 
+                <h3 className='text-[#475569] font-roboto text-base not-italic font-normal leading-[140%]'      data-aos="fade-right" data-aos-delay="100" 
                   >@ 2023. All rights reserved.</h3>
             </div>
           </div>
@@ -27,7 +27,7 @@ function Footer() {
                 <a
                   href="#"
                   className="text-[#475569] font-roboto text-base font-normal leading-140%
-                   transition ease-in-out delay-150 hover:-translate-y-1 "      data-aos="fade-up"
+                   transition ease-in-out delay-150 hover:-translate-y-1 "      data-aos="fade-left"
                    
                 >
                   Terms
@@ -35,7 +35,7 @@ function Footer() {
                 <a
                   href="#"
                   className="text-[#475569] font-roboto text-base font-normal leading-140%
-                    transition ease-in-out delay-150 hover:-translate-y-1"      data-aos="fade-up"
+                    transition ease-in-out delay-150 hover:-translate-y-1"      data-aos="fade-left"
                     data-aos-delay="100"
                 >
                   Privacy
@@ -43,7 +43,7 @@ function Footer() {
                 <a
                   href="#"
                   className="text-[#475569] font-roboto text-base font-normal leading-140%
-                    transition ease-in-out delay-150 hover:-translate-y-1"      data-aos="fade-up"
+                    transition ease-in-out delay-150 hover:-translate-y-1"      data-aos="fade-left"
                     data-aos-delay="200"
                 >
                   Support
@@ -51,7 +51,7 @@ function Footer() {
                 <a
                   href="#"
                   className="text-[#475569] font-roboto text-base font-normal leading-140%
-                     transition ease-in-out delay-150 hover:-translate-y-1"      data-aos="fade-up"
+                     transition ease-in-out delay-150 hover:-translate-y-1"      data-aos="fade-left"
                      data-aos-delay="300"
                 >
                   About
@@ -59,7 +59,7 @@ function Footer() {
                 <a
                   href="#"
                   className="text-[#475569] font-roboto text-base font-normal leading-140% md:block hidden
-                     transition ease-in-out delay-150 hover:-translate-y-1"      data-aos="fade-up"
+                     transition ease-in-out delay-150 hover:-translate-y-1"      data-aos="fade-left"
                      data-aos-delay="400"
                 >
                   Resources
@@ -67,7 +67,7 @@ function Footer() {
                 <a
                   href="#"
                   className="text-[#475569] font-roboto text-base font-normal leading-140%
-                     transition ease-in-out delay-150 hover:-translate-y-1"      data-aos="fade-up"
+                     transition ease-in-out delay-150 hover:-translate-y-1"      data-aos="fade-left"
                      data-aos-delay="500"
                 >
                   Contact
