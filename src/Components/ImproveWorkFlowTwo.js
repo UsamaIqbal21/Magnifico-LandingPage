@@ -2,7 +2,7 @@ import React from "react";
 import Images from "../Assets/Images";
 function ImproveWorkFlowTwo() {
   return (
-    <section>
+    <section id="services">
       <div className="py-24">
         <div className="container mx-auto px-4">
           <div className="md:px-2 lg:px-12 2xl:pl-24">

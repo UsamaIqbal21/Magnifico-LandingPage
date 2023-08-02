@@ -45,28 +45,28 @@ const Navbar = () => {
             <div className="hidden md:block ">
               <div className=" flex items-baseline space-x-7 ">
                 <a
-                  href="#"
+                  href="#products"
                   className="text-blue-gray-900 font-roboto text-16 font-medium leading-24 tracking-wider 
                    transition ease-in-out delay-150 hover:-translate-y-1 "
                 >
                   Products
                 </a>
                 <a
-                  href="#"
+                  href="#solutions1"
                   className="text-blue-gray-900 font-roboto text-16 font-medium leading-24 tracking-wider 
                     transition ease-in-out delay-150 hover:-translate-y-1"
                 >
                   Solutions
                 </a>
                 <a
-                  href="#"
+                  href="#services"
                   className="text-blue-gray-900 font-roboto text-16 font-medium leading-24 tracking-wider 
                     transition ease-in-out delay-150 hover:-translate-y-1"
                 >
                   Services
                 </a>
                 <a
-                  href="#"
+                  href="#help1"
                   className="text-blue-gray-900 font-roboto text-16 font-medium leading-24 tracking-wider 
                      transition ease-in-out delay-150 hover:-translate-y-1"
                 >
@@ -158,28 +158,28 @@ const Navbar = () => {
         </div>
         <div className="p-4 space-y-7">
           <a
-            href="#"
+            href="#products"
             className="block text-blue-gray-900 font-roboto text-16 font-medium leading-24 tracking-wider 
              transition ease-in-out delay-150 hover:-translate-y-1"
           >
             Products
           </a>
           <a
-            href="#"
+            href="#solutions"
             className="block text-blue-gray-900 font-roboto text-16 font-medium leading-24 tracking-wider 
             transition ease-in-out delay-150 hover:-translate-y-1"
           >
             Solutions
           </a>
           <a
-            href="#"
+            href="#services"
             className="block text-blue-gray-900 font-roboto text-16 font-medium leading-24 tracking-wider 
              transition ease-in-out delay-150 hover:-translate-y-1"
           >
             Services
           </a>
           <a
-            href="#"
+            href="#help"
             className="block text-blue-gray-900 font-roboto text-16 font-medium leading-24 tracking-wider 
               transition ease-in-out delay-150 hover:-translate-y-1"
           >
@@ -199,30 +199,7 @@ const Navbar = () => {
             <img src={Images.arrow} alt="" width={24} height={24} />
           </div>
         </div>
-        {/* <div className="flex flex-col space-y-3 items-center justify-center pt-8">
-          <div>
-            <a href="#home">
-              <img src={Images.logo} alt="Appy" />
-            </a>
-          </div>
-          <div className="flex space-x-2 items-center justify-center pt-3">
-            <div>
-              <img src={Images.youtube} alt="" width={33} height={33} />
-            </div>
-            <div>
-              <img src={Images.facebook} alt="" width={33} height={33} />
-            </div>
-            <div>
-              <img src={Images.twitter} alt="" width={33} height={33} />
-            </div>
-            <div>
-              <img src={Images.instagram} alt="" width={33} height={33} />
-            </div>
-            <div>
-              <img src={Images.linkedin} alt="" width={33} height={33} />
-            </div>
-          </div>
-        </div> */}
+
       </div>
     </nav>
   );

@@ -7,6 +7,8 @@ import EnjoyYourTime from "./Components/EnjoyYourTime";
 import ToolsTeamNeed from "./Components/ToolsTeamNeed";
 import ImproveWorkFlow from "./Components/ImproveWorkFlow";
 import ImproveWorkFlowTwo from "./Components/ImproveWorkFlowTwo";
+import Community from "./Components/Community";
+import Footer from "./Components/Footer";
 function App() {
   useEffect(() => {
     AOS.init({ duration: 2000 });
@@ -173,6 +175,8 @@ function App() {
       <ToolsTeamNeed/>
       <ImproveWorkFlow/>
       <ImproveWorkFlowTwo/>
+      <Community/>
+      <Footer/>
     </>
   );
 }

@@ -4,7 +4,7 @@ import Images from "../Assets/Images";
 function ImproveWorkFlow() {
   return (
     <>
-      <section
+      <section id="solutions"
         className="bg-cover bg-center block md:hidden"
         style={{
           backgroundImage: `linear-gradient(0deg, rgba(88, 28, 135, 0.75) 0%, rgba(88, 28, 135, 0.75) 100%),url(${bg})`,
@@ -53,7 +53,7 @@ function ImproveWorkFlow() {
           </div>
         </div>
       </section>
-      <section className="hidden md:block">
+      <section id="solutions1" className="hidden md:block">
         <div className="py-24 ">
           <div className="container mx-auto md:px-6 lg:px-12 xl:px-28 2xl:px-40">
             <div
